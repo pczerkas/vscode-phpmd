@@ -18,7 +18,7 @@ class BuildDiagnosticsStrategyTest {
             // Assert
             // ======
             expect(output.diagnostics.length).to.equal(1);
-            expect(output.diagnostics[0].message).to.equal("Test message");
+            expect(output.diagnostics[0].message).to.equal("Test message\nSuppress with @SuppressWarnings(PHPMD.TestRule)");
             expect(output.diagnostics[0].range.start.line).to.equal(0);
             expect(output.diagnostics[0].range.start.character).to.equal(0);
             expect(output.diagnostics[0].range.end.line).to.equal(0);

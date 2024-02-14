@@ -1,3 +1,7 @@
+# Version 1.3.1
+
+* Added information how to suppress detected problems
+
 # Version 1.3.0
 
 * Added encoding of xml special chars in test filename (issue 61)

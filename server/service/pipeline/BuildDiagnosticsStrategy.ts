@@ -264,8 +264,10 @@ class BuildDiagnosticsStrategy implements IExecuteStrategy<PipelinePayloadModel>
      */
     protected getMessage(problem: IPmdViolation): string {
         let message = problem._ || null;
+        let rule = problem.$.rule || null;
 
         message = message.replace(/^\s+|\s+$/g, '');
+        message += "\nSuppress with @SuppressWarnings(PHPMD." + rule + ")";
 
         if (message === null) {
             throw new Error("Unable to find problem message");

@@ -1,11 +1,11 @@
 {
-  "name": "vscode-phpmd",
-  "displayName": "PHP Mess Detector",
-  "description": "VSCode plugin for PHP Mess Detector",
+  "name": "vscode-phpmd-suppress",
+  "displayName": "PHP Mess Detector with suppressions",
+  "description": "VSCode plugin for PHP Mess Detector with info how to suppress detected problems",
   "author": "Ecodes.io",
   "license": "MIT",
-  "version": "1.3.0",
-  "publisher": "ecodes",
+  "version": "1.3.1",
+  "publisher": "PCODE-pl",
   "engines": {
     "vscode": "^1.37.0"
   },
@@ -23,12 +23,12 @@
     "linter"
   ],
   "bugs": {
-    "url": "https://github.com/sandhje/vscode-phpmd/issues"
+    "url": "https://github.com/pczerkas/vscode-phpmd/issues"
   },
-  "homepage": "https://github.com/sandhje/vscode-phpmd",
+  "homepage": "https://github.com/pczerkas/vscode-phpmd",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sandhje/vscode-phpmd.git"
+    "url": "https://github.com/pczerkas/vscode-phpmd.git"
   },
   "icon": "images/vscode-phpmd.png",
   "main": "./out/client/client",
