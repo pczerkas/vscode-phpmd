@@ -4,7 +4,7 @@
   "description": "VSCode plugin for PHP Mess Detector with info how to suppress detected problems",
   "author": "Ecodes.io",
   "license": "MIT",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "publisher": "PCODE-pl",
   "engines": {
     "vscode": "^1.37.0"

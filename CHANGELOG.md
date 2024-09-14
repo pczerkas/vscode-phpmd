@@ -1,3 +1,7 @@
+# Version 1.4.0
+
+* Updated integrated phpmd.phar to version 2.15.0
+
 # Version 1.3.1
 
 * Added information how to suppress detected problems
